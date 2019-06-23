@@ -1,0 +1,54 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello ReserveringenController!{% endblock %}
+
+
+
+{% block body %}
+
+<style>
+    .example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+    .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
+</style>
+
+<div class="example-wrapper">
+    {{ "Hallo hier moet een input komen voor checkin date en checkout date met een button 'Zoek'
+    waarna de vrije kamers zichtbaar moeten worden met een totaalprijs en ene button 'Boek' in
+    de laatste kolom van de tabel" ~ "Test"}}
+
+    <table class="table">
+        <thead>
+        <tr>
+            <th>KamerId</th>
+            <th>CheckinDate</th>
+            <th>CheckoutDate</th>
+            <th>Kamertype</th>
+            <th>Prijs</th>
+            <th>Reserveer</th>
+        </tr>
+        </thead>
+        <tbody>
+        {% for reservering in reserverings %}
+              <tr>
+                <td>{{ reservering.kamerid.id }}</td>
+                <td>{{ reservering.checkinDate ? reservering.checkinDate|date('Y-m-d') : '' }}</td>
+                <td>{{ reservering.checkoutDate ? reservering.checkoutDate|date('Y-m-d') : '' }}</td>
+                <td> {{ reservering.kamerid.soortid.omschrijving|raw }}</td>
+                <td> {{ reservering.kamerid.prijs ~ " Euro" }}</td>
+                <td><button class="btn-btn-danger">{{ button_label|default('Reserveer') }}</button></td>
+             </tr>
+         {% else %}
+            <tr>
+                <td colspan="5">no records found bij reserveringen</td>
+            </tr>
+        {% endfor %}
+
+        </tbody>
+    </table>
+
+
+
+</div>
+{% endblock %}
+{% block footer %}
+{% endblock %}

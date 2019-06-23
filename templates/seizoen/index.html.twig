@@ -1,0 +1,43 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Seizoen index{% endblock %}
+
+{% block body %}
+    <h1>Seizoen index</h1>
+
+    <table class="table" style="color: white">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Omschrijving</th>
+                <th>Begindatum</th>
+                <th>Einddatum</th>
+                <th>Korting</th>
+                <th>actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for seizoen in seizoens %}
+            <tr>
+                <td>{{ seizoen.id }}</td>
+                <td>{{ seizoen.omschrijving }}</td>
+                <td>{{ seizoen.begindatum ? seizoen.begindatum|date('Y-m-d') : '' }}</td>
+                <td>{{ seizoen.einddatum ? seizoen.einddatum|date('Y-m-d') : '' }}</td>
+                <td>{{ seizoen.korting }}</td>
+                <td>
+                    <a class="btn btn-primary" href="{{ path('seizoen_show', {'id': seizoen.id}) }}">show</a>
+                    <a class="btn btn-secondary" href="{{ path('seizoen_edit', {'id': seizoen.id}) }}">edit</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="6">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <a class="btn btn-success" href="{{ path('seizoen_new') }}">Create new</a>
+{% endblock %}
+{% block footer %}
+{% endblock %}

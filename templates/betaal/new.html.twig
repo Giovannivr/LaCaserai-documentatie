@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New Betaal{% endblock %}
+
+{% block body %}
+    <h1>Create new Betaal</h1>
+
+    {{ include('betaal/_form.html.twig') }}
+
+    <a class="btn btn-primary" href="{{ path('betaal_index') }}">back to list</a>
+{% endblock %}
+{% block footer %}
+{% endblock %}

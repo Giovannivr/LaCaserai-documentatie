@@ -1,0 +1,38 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Betaal{% endblock %}
+
+{% block body %}
+    <h1>Betaal</h1>
+
+    <table class="table" style="color: white">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ betaal.id }}</td>
+            </tr>
+            <tr>
+                <th>Soort</th>
+                <td>{{ betaal.soort }}</td>
+            </tr>
+            <tr>
+                <th>Betaal_datum</th>
+                <td>{{ betaal.betaalDatum ? betaal.betaalDatum|date('Y-m-d') : '' }}</td>
+            </tr>
+            <tr>
+                <th>Rekeningnummer</th>
+                <td>{{ betaal.rekeningnummer }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div style="display: flex">
+        <a class="btn btn-primary" style="margin-right: 10px" href="{{ path('betaal_index') }}">back to list</a>
+
+        <a class="btn btn-secondary" style="margin-right: 10px" href="{{ path('betaal_edit', {'id': betaal.id}) }}">edit</a>
+
+        {{ include('betaal/_delete_form.html.twig') }}
+    </div>
+{% endblock %}
+{% block footer %}
+{% endblock %}

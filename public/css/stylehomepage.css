@@ -1,0 +1,169 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    font-family: sans-serif;
+    background-color: #111;
+    background-image: url("../images/Achtergrond.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+nav{
+    font-family: sans-serif;
+    border-bottom: 3px solid lightblue;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+.aa{
+    color: black;
+    background-color: lightblue;
+}
+.nav-link:hover{
+    color:black !important;
+    background-color: white;
+}
+.login{
+	position: relative;
+	margin-left: 75%;
+	margin-top: 1%;	
+}
+.container{
+    padding-right: 13%;
+    padding-left: 13%;
+}
+h1{
+	color: #FFF;
+	text-align: center;
+	font-size: 70px;
+	line-height: 140px;
+	margin: 0;
+	padding: 0;
+	opacity: 0.9;
+}
+span{
+	color: #6FF;
+}
+.section{
+    height: auto;
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    max-width: 100%;
+    background-color: rgba(211,211,211,0.8);
+}
+p{
+    margin: 0;
+    padding: 0;
+	
+}
+footer{
+	width: 100%;
+	padding: 0;
+	padding-bottom: 1.5%;
+	margin-bottom: 0;
+	border-top: 4px solid lightblue;
+	float: left;
+	background-color: rgba(51,153,255,0.5);
+	color: white;
+}
+h2{
+    padding-top: 5%;
+    font-size: 16px;
+}
+h3{
+    font-size: 14px;
+}
+.informatie{
+    padding-top: 10px;
+}
+.contact{
+    font-family: Verdana, Arial, serif;
+    font-size: 12px;
+    float: left;
+    margin-right: 10%;
+}
+.kleur{
+	color: #39F;
+}
+.footerr{
+    padding-top: 0.5%;
+    padding-left: 14%;
+}
+h3{
+    margin-top: 7%;
+}
+.contact a{
+    color: white;
+    text-decoration: none;
+}
+.contact a:hover{
+    text-decoration: underline;
+}
+@keyframes slider {
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    90%{
+        left: -300%;
+    }
+    95%{
+        left: -400%;
+    }
+    100%{
+        left: -400%;
+    }
+}
+#slider{
+    border-bottom: 3px solid lightblue;
+    overflow: hidden;
+}
+#slider figure img{
+    width: 20%;
+    float: left;
+}
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 20s infinite slider;
+}
+
+

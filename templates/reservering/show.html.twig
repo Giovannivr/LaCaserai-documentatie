@@ -1,0 +1,37 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Reservering{% endblock %}
+
+{% block body %}
+    <h1>Reservering</h1>
+
+    <table class="table" style="color: white">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ reservering.id }}</td>
+            </tr>
+            <tr>
+                <th>CheckinDate</th>
+                <td>{{ reservering.checkinDate ? reservering.checkinDate|date('Y-m-d') : '' }}</td>
+            </tr>
+            <tr>
+                <th>CheckoutDate</th>
+                <td>{{ reservering.checkoutDate ? reservering.checkoutDate|date('Y-m-d') : '' }}</td>
+            </tr>
+            <tr>
+                <th>BetaalMethode</th>
+                <td>{{ reservering.betaalMethode }}</td>
+            </tr>
+        </tbody>
+    </table>
+    <div style="display: flex">
+        <a class="btn btn-primary" style="margin-right: 10px" href="{{ path('reservering_index') }}">back to list</a>
+
+        <a class="btn btn-secondary" style="margin-right: 10px" href="{{ path('reservering_edit', {'id': reservering.id}) }}">edit</a>
+
+        {{ include('reservering/_delete_form.html.twig') }}
+    </div>
+{% endblock %}
+{% block footer %}
+{% endblock %}

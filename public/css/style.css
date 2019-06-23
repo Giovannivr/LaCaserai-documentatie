@@ -1,0 +1,442 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    font-family: sans-serif;
+    background-color: #111;
+}
+.image{
+    background-image: url("../images/Achtergrond.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+nav{
+    font-family: sans-serif;
+    border-bottom: 3px solid lightblue;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+    width: 20%;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+.aa{
+    color: black;
+    background-color: lightblue;
+}
+/* Change the link color to #111 (black) on hover */
+nav li a:hover{
+    background-color: lightblue;
+    color: black;
+	opacity: 0.6;
+}
+.login{
+	position: relative;
+	margin-left: 75%;
+	margin-top: 1%;	
+}
+.container{
+    padding-right: 13%;
+    padding-left: 13%;
+}
+h1{
+	color: #FFF;
+	text-align: center;
+	font-size: 70px;
+	line-height: 140px;
+	margin: 0;
+	padding: 0;
+	opacity: 0.9;
+}
+span{
+	color: #6FF;
+}
+.section{
+    height: auto;
+    width: 96%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    max-width: 100%;
+    background-color: rgba(211,211,211,0.8);
+}
+p{
+    margin: 0;
+    padding: 0;
+	
+}
+footer{
+	width: 100%;
+	padding: 0;
+	padding-bottom: 1.5%;
+	margin-bottom: 0;
+	border-top: 4px solid lightblue;
+	float: left;
+	background-color: rgba(51,153,255,0.5);
+	color: white;
+}
+h2{
+    padding-top: 5%;
+    font-size: 16px;
+}
+h3{
+    font-size: 14px;
+}
+.informatie{
+    padding-top: 10px;
+}
+.contact{
+    font-family: Verdana, Arial, serif;
+    font-size: 12px;
+    float: left;
+    margin-right: 10%;
+}
+.kleur{
+	color: #39F;
+}
+.footerr{
+    padding-top: 0.5%;
+    padding-left: 14%;
+}
+h3{
+    margin-top: 7%;
+}
+.contact a{
+    color: white;
+    text-decoration: none;
+}
+.contact a:hover{
+    text-decoration: underline;
+}
+@keyframes slider {
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    90%{
+        left: -300%;
+    }
+    95%{
+        left: -400%;
+    }
+    100%{
+        left: -400%;
+    }
+}
+#slider{
+    border-bottom: 3px solid lightblue;
+    overflow: hidden;
+}
+#slider figure img{
+    width: 20%;
+    float: left;
+}
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 20s infinite slider;
+}
+
+
+/*Bestellen.php*/
+
+.pizzas{
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    width: 65%;
+    font-family: Verdana, Arial, serif;
+    font-size: 16px;
+}
+.pizzaplaatje{
+    width: 25%;
+    max-width: 25%;
+}
+.imgpizzas{
+    width:200%;
+    height: 300%;
+    float: left;
+
+}
+
+.prijspizza{
+    width:15%;
+    margin-left: 15%;
+    max-width:100px;
+}
+
+.rij1{
+    margin-left:15%;
+    width: 65%;
+    color: white;
+    background-color: green;
+}
+.rij2{
+    margin-left:15%;
+    width: 65%;
+    background-color: white;
+}
+.rij3{
+    margin-left:15%;
+    width: 65%;
+    background-color: red;
+}
+.minplus{
+    margin-left:15%;
+    width: 65%;
+}
+.bestellijst{
+    position: fixed;
+    top: 28%;
+    right: 13%;
+    width: 25%;
+    height: auto;
+}
+
+
+table, th, td {
+    border: 1px dotted;
+    border-collapse:collapse;
+}
+
+table {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top:5px;
+    font-size: 10px;
+}
+
+th, td {
+    padding:5px;
+}
+
+th {
+    text-align:left;
+    color: white;
+    background-color:rosybrown;
+}
+
+th.prijs, th.totaalbedrag {
+    text-align:right;
+}
+
+table tr:nth-child(even) {
+    background-color:#eee;
+}
+
+td.prijs {
+    text-align:right;
+}
+
+.button {
+    position: relative;
+    margin-top: 2%;
+    margin-left: 46%;
+    background-color: rosybrown;
+}
+
+button a {
+    color: white;
+}
+
+.buttonVerwijderen {
+    position: relative;
+    background-color: red;
+    margin-left: 25%;
+}
+
+.buttonVerwijderen a {
+    color: white;
+}
+
+.korting {
+    text-align: center;
+}
+
+
+
+/*Reserveren.php*/
+
+#map {
+	position: relative;
+	top: 10px;
+	left: 15%;
+	width: 70%;
+	height: 600px;
+	background: lightblue;
+}
+
+
+/*Verzenden.php*/
+
+textarea {
+    width: 32%;
+}
+
+/*Formulier.php*/
+
+.bestelling {
+    position: relative;
+    margin-left: 26%;
+    margin-top: 3%;
+    width: 50%;
+}
+
+/*Rooms.php*/
+li {
+   list-style-type: none;	
+}
+.rooms {
+   width: 30%;
+}
+h4 {
+	color: #39F;
+	margin-bottom: 1%;
+}
+
+/*Media.php*/
+
+img {
+    vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+    background-color: #222;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev {
+    float: left;
+    position: relative;
+    cursor: pointer;
+    width: auto;
+    padding: 16px;
+    margin-top: -200px;
+    color: lightblue;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+.next {
+    float: right;
+    position: relative;
+    cursor: pointer;
+    width: auto;
+    padding: 16px;
+    margin-right: -13%;
+    margin-top: -200px;
+    color: lightblue;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 13%;
+    border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+	background-color: rgba(255,255,255,0.8);
+	color: black;
+}
+#scroll-genx{
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 0px;
+    height: 0px;
+}
+/* Container for image text */
+.caption-container {
+	text-align: center;
+	background-color: rgba(51,153,255,0.5);
+	padding: 2px 16px;
+	color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Six columns side by side */
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+/* Databse.php */
+.add{
+	margin-left: 40%;
+}
+.home{
+	margin-left: 5%;
+}

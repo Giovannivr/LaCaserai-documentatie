@@ -1,0 +1,41 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Seizoen{% endblock %}
+
+{% block body %}
+    <h1>Seizoen</h1>
+
+    <table class="table" style="color: white">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ seizoen.id }}</td>
+            </tr>
+            <tr>
+                <th>Omschrijving</th>
+                <td>{{ seizoen.omschrijving }}</td>
+            </tr>
+            <tr>
+                <th>Begindatum</th>
+                <td>{{ seizoen.begindatum ? seizoen.begindatum|date('Y-m-d') : '' }}</td>
+            </tr>
+            <tr>
+                <th>Einddatum</th>
+                <td>{{ seizoen.einddatum ? seizoen.einddatum|date('Y-m-d') : '' }}</td>
+            </tr>
+            <tr>
+                <th>Korting</th>
+                <td>{{ seizoen.korting }}</td>
+            </tr>
+        </tbody>
+    </table>
+    <div style="display: flex">
+        <a class="btn btn-primary" style="margin-right: 10px" href="{{ path('seizoen_index') }}">back to list</a>
+
+        <a class="btn btn-secondary" style="margin-right: 10px" href="{{ path('seizoen_edit', {'id': seizoen.id}) }}">edit</a>
+
+        {{ include('seizoen/_delete_form.html.twig') }}
+    </div>
+{% endblock %}
+{% block footer %}
+{% endblock %}
