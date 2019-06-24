@@ -66,15 +66,15 @@ class ReserveringenController extends AbstractController
 
         // nu bevat kamers alle kamers van het hotel en reserveringen de kamers die bezet zijn in de gekozen periode
         // probeer nu de gereserveerde kamers in array reskamer te zetten zodat later die kamers niet verschijnen
-        foreach ($reserveringen as $reservering) {
+        //foreach ($reserveringen as $reservering) {
             // per reservering een array vullen met gereserveerde kamernummer.
-            dump($reservering);
-            foreach ($reservering->getKamerid() as $xkamerid) {
-              //  array_push($reskamer, $xkamerid->getId());
-                dump($xkamerid);
+          //  dump($reservering);
+            //foreach ($reservering->$this->getKamerid() as $xkamerid) {
+              //  array_push($reskamer, $xkamerid->$this->getId());
+                //dump($xkamerid);
 
-            }
-        }
+          //  }
+        //}
 
 
         return $this->render('reserveringen/reserveringenvrij.html.twig', [
