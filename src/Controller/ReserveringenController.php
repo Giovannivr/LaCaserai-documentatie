@@ -51,37 +51,42 @@ class ReserveringenController extends AbstractController
 
     /**
      * @Route("/reserveringenvrij", name="reserveringenvrij")
-    */
+     */
     public function vrijekamers(ReserveringRepository $reserveringRepository): Response
     {
         $value = ['checkin' => '2019-05-24', 'checkout' => '2019-06-13'];
         $reserveringen = $reserveringRepository->findvrijekamers($value);
 
+
         $em = $this->getDoctrine()->getManager();
         $kamers = $em->getRepository('App:Kamer')->findAll();
 
+        dump ($kamers);
+        $reskamers =[];
+        foreach ($reserveringen as $reservering) {
+            dump($reservering);
+            array_push($reskamers, $reservering->getKamerid()->getId());
+            dump($reskamers);
+        }
+
+
+        foreach ($kamers as $key => $kamer) {
+            foreach ($reskamers as $reskam) {
+                if ($kamer->getId() == $reskam) {
+                    // verwijder de bezette kamers.
+                    unset($kamers[$key]);
+                }
+            }
+        }
+
         dump($kamers);
 
-        $reskamer = [];
-
-        // nu bevat kamers alle kamers van het hotel en reserveringen de kamers die bezet zijn in de gekozen periode
-        // probeer nu de gereserveerde kamers in array reskamer te zetten zodat later die kamers niet verschijnen
-        //foreach ($reserveringen as $reservering) {
-            // per reservering een array vullen met gereserveerde kamernummer.
-          //  dump($reservering);
-            //foreach ($reservering->$this->getKamerid() as $xkamerid) {
-              //  array_push($reskamer, $xkamerid->$this->getId());
-                //dump($xkamerid);
-
-          //  }
-        //}
-
-
         return $this->render('reserveringen/reserveringenvrij.html.twig', [
-            'reserverings' => $reserveringen
+            'kamers' => $kamers
         ]);
 
     }
+
 
 
 
