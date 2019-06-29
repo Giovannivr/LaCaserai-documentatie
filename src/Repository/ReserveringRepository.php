@@ -22,7 +22,7 @@ class ReserveringRepository extends ServiceEntityRepository
 
 
     /**
-    * @return Reservation[] Returns an array of Reservation objects
+    * @return Reserveringen[] Returns an array of Reservation objects
     * $value = array meegegeven uit aanroep functie met checkin en checkout datum
     */
     public function findvrijekamers($value)

@@ -18,7 +18,7 @@
         {% for soort in soorts %}
             <tr>
                 <td>{{ soort.id }}</td>
-                <td>{{ soort.omschrijving }}</td>
+                <td>{{ soort.omschrijving|raw }}</td>
                 <td>{{ soort.meerprijs }}</td>
                 <td>
                     <a class="btn btn-primary" href="{{ path('soort_show', {'id': soort.id}) }}">show</a>

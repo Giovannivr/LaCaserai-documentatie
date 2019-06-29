@@ -13,7 +13,7 @@
 
     <div class="example-wrapper">
 
-        <table class="table">
+        <table class="table" style="color: white">
             <thead>
             <tr>
                 <th>KamerId</th>
@@ -28,7 +28,7 @@
                     <td>{{ reservering.id }}</td>
                     <td> {{ reservering.soortid.omschrijving|raw }}</td>
                     <td> {{ reservering.prijs ~ " Euro" }}</td>
-                    <td><button class="btn-btn-danger">{{ button_label|default('Reserveer') }}</button></td>
+                    <td><button class="btn btn-success">{{ button_label|default('Reserveer') }}</button></td>
                 </tr>
             {% else %}
                 <tr>
