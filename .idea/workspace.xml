@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b391929e-f585-4c1a-bbf8-31aaf14c16a7" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/documentatie/LA Caserai Kwaliteitshandboek.docx" afterPath="$PROJECT_DIR$/documentatie/LA Caserai Kwaliteitshandboek.docx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/documentatie/~$ Caserai Kwaliteitshandboek.docx" afterPath="$PROJECT_DIR$/documentatie/~$ Caserai Kwaliteitshandboek.docx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -317,12 +318,12 @@
       <workItem from="1561570988112" duration="2280000" />
       <workItem from="1561582772064" duration="537000" />
       <workItem from="1561716607578" duration="151000" />
-      <workItem from="1561717075304" duration="4517000" />
+      <workItem from="1561717075304" duration="4613000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196096000" />
+    <option name="totallyTimeSpent" value="196192000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
