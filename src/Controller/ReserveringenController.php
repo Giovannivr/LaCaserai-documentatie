@@ -80,7 +80,8 @@ class ReserveringenController extends AbstractController
      */
     public function vrijekamers(Request $request)
     {
-
+        $session = $this->get('request_stack')->getCurrentRequest()->getSession();
+      #  $vrijekamers = $session->get('vrijekamers', array());
 
         $form = $this->createFormBuilder()
             ->add('checkin', DateType::class,  [
@@ -107,6 +108,8 @@ class ReserveringenController extends AbstractController
             $em = $this->getDoctrine()->getManager();
             $value = ['checkin' => $checkindatum, 'checkout' => $checkuitdatum];
             $reserveringen = $em->getRepository('App:Reservering')->findvrijekamers($value);
+            dump($em);
+            dump($reserveringen);
             dump ($value);
             //     $reserveerdatums = ['checkin' => '2019-05-24', 'checkout' => '2019-06-13'];
 
@@ -131,7 +134,12 @@ class ReserveringenController extends AbstractController
                 }
             }
 
+            $session->set('vrijekamers', $kamers);
+            $session->set('checkin', $checkindatum);
+            $session->set('checkuit', $checkuitdatum);
             dump($kamers);
+            dump($session);
+
 
             return $this->render('reserveringen/reserveringenvrij.html.twig', [
                 'kamers' => $kamers
@@ -169,6 +177,30 @@ class ReserveringenController extends AbstractController
 
     }
 
+  /*  $reservering = new Reservering();
+    $reservatie->setMedewerker($this->getUser());
+    $reservatie->setKamer($this->getKamer('kamerid'));
+    $reservatie->setKamer($this->getKamer('omschijving'));
+    $reservatie->
+    $reservatie*/
+
+
+    /**
+     * @Route("/giovanni", name="giovanni")
+     */
+    public function Gio()
+    {
+
+
+    $gio = array("Giovanni is baas", "Giovanni is KING");
+
+        echo $gio[0] . $gio[1];
+        dump($gio);
+        return $this->render('Giovanni/Gio.html.twig', [
+            'Giovanni' => $gio
+        ]);
+
+    }
 
 
 }
