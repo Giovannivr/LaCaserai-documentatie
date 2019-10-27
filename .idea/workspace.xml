@@ -2,11 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b391929e-f585-4c1a-bbf8-31aaf14c16a7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/Giovanni/Gio.html.twig" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/documentatie/~$ Caserai Kwaliteitshandboek.docx" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/ALA 1/ALA 1 vragen aan de klant.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/ALA 1/Functioneel ontwerp Rental-Everyting.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/ALA 1/Informatiebehoefte Rental-Everyting.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/ALA 1/Ontwikkelomgeving Rental-Everyting.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/ALA 1/Project plan Rental-Everyting.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/ALA 1/Technisch ontwerp Rental-Everyting.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/ALA vragen aan de klant.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/Flowerpower/Flowerpower.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/Flowerpower/Functioneel ontwerp.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/Flowerpower/Informatiebehoefte.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/Flowerpower/Ontwikkelomgeving.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/Flowerpower/Projectplan.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/Flowerpower/Technische ontwerp.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/Forum/Functioneel ontwerp forum.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/Forum/Technische ontwerp forum.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/Forum/informatie behoefte forum.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/Forum/projectplan forum.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/Functioneel hulp middelen.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/Informatie behoefte hulp middeln voor je examen.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/Installeren symfony4 v6.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/Projectplan examen tips.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/Sjablonen/Bijlage 1 Sjabloon_informatiebehoefte.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/Sjablonen/Bijlage 2 Sjabloon projectplan.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/Sjablonen/Bijlage 3 Sjabloon functioneel ontwerp.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/Sjablonen/Bijlage 4 Sjabloon technisch ontwerp.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/Sjablonen/Bijlage 5 Sjabloon ontwikkelomgeving.docx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/Technische ontwerp tips voor examen.docx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/stylecontact.css" afterPath="$PROJECT_DIR$/public/css/stylecontact.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Controller/ReserveringenController.php" afterPath="$PROJECT_DIR$/src/Controller/ReserveringenController.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -342,35 +365,7 @@
             <path>
               <item name="LaCaserai" type="b2602c69:ProjectViewProjectNode" />
               <item name="LaCaserai" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="LaCaserai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LaCaserai" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="packages" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="LaCaserai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LaCaserai" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="LaCaserai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LaCaserai" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Entity" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="LaCaserai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LaCaserai" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="LaCaserai" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LaCaserai" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="image" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="documentatie" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -387,17 +382,17 @@
     <property name="settings.editor.selected.configurable" value="Symfony2.SettingsForm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\temp" />
-      <recent name="D:\xampp\htdocs\unit4\LaCaserai\public\css" />
-      <recent name="D:\xampp\htdocs\unit4\LaCaserai\templates\reserveringen" />
-      <recent name="D:\xampp\htdocs\unit4\LaCaserai\src\Form" />
-      <recent name="D:\xampp\htdocs\unit4\LaCaserai\src\EventListener" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\xampp\htdocs\unit4\LaCaserai" />
       <recent name="D:\xampp\htdocs\unit4\LaCaserai\src\Form" />
       <recent name="D:\xampp\htdocs\unit4\LaCaserai\public" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\unit4\LaCaserai\documentatie" />
+      <recent name="E:\temp" />
+      <recent name="D:\xampp\htdocs\unit4\LaCaserai\public\css" />
+      <recent name="D:\xampp\htdocs\unit4\LaCaserai\templates\reserveringen" />
+      <recent name="D:\xampp\htdocs\unit4\LaCaserai\src\Form" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -460,12 +455,12 @@
       <workItem from="1570270562238" duration="5912000" />
       <workItem from="1570531540246" duration="896000" />
       <workItem from="1571127991420" duration="2112000" />
-      <workItem from="1571736378130" duration="98000" />
+      <workItem from="1571736378130" duration="1159000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="247762000" />
+    <option name="totallyTimeSpent" value="248823000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
