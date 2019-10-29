@@ -2,33 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b391929e-f585-4c1a-bbf8-31aaf14c16a7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/ALA 1/ALA 1 vragen aan de klant.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/ALA 1/Functioneel ontwerp Rental-Everyting.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/ALA 1/Informatiebehoefte Rental-Everyting.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/ALA 1/Ontwikkelomgeving Rental-Everyting.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/ALA 1/Project plan Rental-Everyting.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/ALA 1/Technisch ontwerp Rental-Everyting.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/ALA vragen aan de klant.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/Flowerpower/Flowerpower.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/Flowerpower/Functioneel ontwerp.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/Flowerpower/Informatiebehoefte.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/Flowerpower/Ontwikkelomgeving.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/Flowerpower/Projectplan.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/Flowerpower/Technische ontwerp.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/Forum/Functioneel ontwerp forum.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/Forum/Technische ontwerp forum.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/Forum/informatie behoefte forum.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/Forum/projectplan forum.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/Functioneel hulp middelen.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/Informatie behoefte hulp middeln voor je examen.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/Installeren symfony4 v6.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/Projectplan examen tips.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/Sjablonen/Bijlage 1 Sjabloon_informatiebehoefte.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/Sjablonen/Bijlage 2 Sjabloon projectplan.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/Sjablonen/Bijlage 3 Sjabloon functioneel ontwerp.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/Sjablonen/Bijlage 4 Sjabloon technisch ontwerp.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/Sjablonen/Bijlage 5 Sjabloon ontwikkelomgeving.docx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/documentatie/ALA leerjaar 3/Technische ontwerp tips voor examen.docx" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -455,12 +428,12 @@
       <workItem from="1570270562238" duration="5912000" />
       <workItem from="1570531540246" duration="896000" />
       <workItem from="1571127991420" duration="2112000" />
-      <workItem from="1571736378130" duration="1159000" />
+      <workItem from="1571736378130" duration="1247000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="248823000" />
+    <option name="totallyTimeSpent" value="248911000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
